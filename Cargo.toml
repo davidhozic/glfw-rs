@@ -1,6 +1,6 @@
 [package]
-authors = ["The glfw-rs developers."]
-description = "GLFW3 bindings and idiomatic wrapper for Rust."
+authors = ["The glfw-rs developers.", "David Hozic (the fork)"]
+description = "A fork of https://crates.io/crates/glfw, containing some required patches for MuJoCo-rs."
 keywords = ["windowing", "opengl", "vulkan"]
 license = "Apache-2.0"
 name = "glfw"

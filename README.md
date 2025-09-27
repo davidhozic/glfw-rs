@@ -15,6 +15,10 @@
     limitations under the License.
 -->
 
+# NOTICE
+This is a FORK of https://crates.io/crates/glfw.
+It is intended for the sole purpose of having a bug-fixed version in https://crates.io/crates/mujoco-rs.
+
 # glfw-rs
 
 [![Crates.io](https://img.shields.io/crates/v/glfw)](https://crates.io/crates/glfw)
