@@ -16,7 +16,7 @@
 #![crate_type = "lib"]
 #![crate_type = "rlib"]
 #![crate_type = "dylib"]
-#![crate_name = "glfw"]
+#![crate_name = "glfw_mjrc_fork"]
 #![deny(
     rust_2018_compatibility,
     rust_2018_idioms,
@@ -81,7 +81,7 @@
 
 // TODO: Document differences between GLFW and glfw-rs
 pub mod ffi {
-    pub use glfw_sys::*;
+    pub use glfw_sys_mjrc_fork::*;
 }
 macro_rules! make_user_callback_functions {
     (
